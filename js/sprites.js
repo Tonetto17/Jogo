@@ -2,8 +2,9 @@ const gravity = 0.2
 
 const floorHeight = 96
 
-const backgroundSpritePath = "../assets/background/placeholder.png"
+
 const defaultObjectSpritePath = "../assets/objects/square.svg"
+const backgroundSpritePath = "../assets/background/placeholder.png"
 
 class Sprite {
     constructor({ position, velocity, source, scale, offset, sprites }) {

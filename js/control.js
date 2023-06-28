@@ -75,7 +75,6 @@ function handleControls() {
 
     movement()
     attacks()
-    
 
     function movement() {
         player.velocity.x = 0
